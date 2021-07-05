@@ -16,10 +16,11 @@ h1{
     color: white;
     font-weight: 700;
 }
+
 .first-part{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
 }
 .half-width{
     width: 50%;
@@ -27,4 +28,50 @@ h1{
 }
 .half-width img{
     width: 90%;
+}
+#text{
+    margin-right: 19%;
+}
+.second-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    margin: 100px 0px;
+    background-position: right;
+    display: flex;
+}
+.experince-item{
+    display: flex;
+}
+.experience-area{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+}
+.size{
+    font-size: 40px;
+}
+.rong{
+    color: orange;
+}
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#box-image1{
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#box-image2{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
